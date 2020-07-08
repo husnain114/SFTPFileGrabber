@@ -1,0 +1,6 @@
+#!/bin/sh
+while true; do
+  sh $(pwd)/FileGrabberWithSysLog.sh >> /var/log/SyslogFileGrabber.log;
+  sleep 30;
+done
+
