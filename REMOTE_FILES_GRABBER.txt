@@ -1,0 +1,16 @@
+########################################################################################################################
+#By: Husnain
+#Date: 06/06/2020
+#Purpose: File Grabber Service to take logs from Remote Server and placing it on Local Machine
+#
+#HOW-TO:
+#      Just add the values here as described per template and script will run automatically based
+#      on the added values. Please fill all the columns and make sure the values added are correct!
+#
+#########################################################################################################################
+#TANENTNAME TAGNAME FOLDER_WITH_LOG_ON_REMOTE_SERVER REMOTE_CONNECTION_IP REMPTE_CONNECTION_PORT REMOTE_CONNECTION_USER FOLDER_WITH_LOG_ON_LOCAL_SERVER LOGS_PARSE_TO_DB LOCAL_DB_INSERT DB_NAME SYSLOGPORT
+tanent1 TAG1 /var/tmp/log/tanent1/backup/TAG1 192.168.186.148 22 root /var/tmp/log/tanent1/TAG1 yes yes genband_sbc1 514
+tanent1 TAG2 /var/tmp/log/tanent1/backup/TAG2 192.168.186.148 22 root /var/tmp/log/tanent1/TAG2 no no no 514
+tanent1 TAG3 /var/tmp/log/tanent1/backup/TAG3 192.168.186.148 22 root /var/tmp/log/tanent1/TAG3 no no no 514
+tanent1 TAG4 /var/tmp/log/tanent1/backup/TAG4 192.168.186.148 22 root /var/tmp/log/tanent1/TAG4 no no no 514
+tanent1 TAG5 /var/tmp/log/tanent1/backup/TAG5 192.168.186.148 22 root /var/tmp/log/tanent1/TAG5 no no no 514
